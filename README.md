@@ -34,7 +34,7 @@ grunt.initConfig({
 	node_optimize: {
 		dist: {
 			options: {
-				ignoreRequired: [
+				ignore: [
 					'config/db.js',
 					'private/some-other-file.js',
 				]
