@@ -1,6 +1,6 @@
 {
   "name": "grunt-node-optimize",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "A grunt task for node-optimizer. Optimize a node project to a single JS file for distribution release.",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -31,8 +31,5 @@
   "homepage": "https://github.com/danielgindi/grunt-node-optimize",
   "dependencies": {
     "node-optimize": "1.2.*"
-  },
-  "peerDependencies": {
-    "grunt": "~0.4.0"
   }
 }
